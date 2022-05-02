@@ -16,6 +16,8 @@ from gensim.models.doc2vec import Doc2Vec
 from nltk.corpus import stopwords
 from profile_matching_proj import settings
 
+nltk.download('stopwords')
+nltk.download('punkt')
 
 stop_words = stopwords.words('english')
 #nlp = spacy.load('en_core_web_sm')
